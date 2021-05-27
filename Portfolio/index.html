@@ -1,0 +1,72 @@
+<!-- 
+Cat Casuat 
+5/27/2021
+Thinkful Engineering Imemersion Portfolio
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- process character set as utf-8-->
+        <meta charset="utf-8" />
+        <!-- set width to be whatever the device's width is -->
+        <meta name="viewport" content="width=device-width" />
+        <title>Cat Casuat</title>
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+            rel="stylesheet"
+            type="text/css" 
+        />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+
+    </head>
+    <body>
+        <header>
+            <div class="banner">
+                <h1 class="title">Cat Casuat</h1>
+                <h2 class="sub-title">Software Developer</h2>
+            </div>
+        </header>
+        <main>
+            <!-- made classes for each section in case I want to customize css for each -->
+            <section class="profile">
+                <img class="profile-image" src="public/images/CatAndCat.JPG"/>
+            </section>
+            <section class="intro">
+                <h1>Intro</h1>
+                <p>I am a software developer that is often between Oakland, CA and Austin, TX. I am enrolled in the Thinkful Engineering Immersion program to better my knowledge about full-stack development.</p>
+            </section>
+            <hr>
+            <section class="about">
+                <h1>About Me</h1>
+                <p>I have worked in the 3D printing industry since 2014. I have spent my career working at start-ups - usually as the only software developer on the team.</p>
+                <p>My goals are:</p>
+                <!-- adding an ordered/numbered list -->
+                <ol>
+                    <li>To learn the dynamics of developing w/a software development team</li>
+                    <li>The conventions and standards of software development</li>
+                    <li>Share the knowledge I have w/my classmates</li>
+                </ol>
+                <p>Outside of software development, I spend my time creating at-home versions of restaurant food I enjoy. I also play MMORPGs in my spare time.</p>
+            </section>
+            <hr>
+            <section class="languages">
+                <h1>Languages</h1>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                </ul>
+            </section>
+            <hr>
+            <section class="contact">
+                <h1>Contact</h1>
+                <a href="https://www.linkedin.com/in/ccasuat"><h3>LinkedIn</h3></a>
+                <a href="mailto:404@errur.com"><h3>Email</h3></a>
+                <a href="https://github.com/Catrodigious"><h3>GitHub</h3></a>
+            </section>
+        </main>
+
+        <!-- pull js code from script.js last so everything else loads first (if I had JavaScript) -->
+        <script src="script.js"></script>
+    </body>
+</html>
