@@ -1,0 +1,68 @@
+/*
+Cat Casuat 
+5/27/2021
+Thinkful Engineering Imemersion Portfolio
+*/
+
+html *
+{
+    font-family: Verdana !important;
+}
+
+
+.banner {
+    background: rgba(117, 6, 26, 1.0);
+    height: 200px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.title {
+    font-size: 48pt;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+.sub-title {
+    padding-top: 0px;
+    font-size: 24pt;
+    font-weight: normal;
+}
+
+.about {
+    text-align: left;
+}
+
+section {
+    display: inline-block;
+    text-align: left;
+}
+
+main {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+hr {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    opacity: 0.5;
+}
+
+.profile {
+    padding-top: 30px;
+    display: block;
+    text-align: center;
+}
+
+.profile-image {
+    height: 400px;
+    width: auto;
+}
+
+a:link { color: rgba(48, 42, 223, 1); }
+a:visited { color: rgba(8, 3, 148, 1); }
+a:hover {color: rgba(117, 6, 26, 1.0); }
+a:active { color: rgba(117, 6, 26, 0.6); }
